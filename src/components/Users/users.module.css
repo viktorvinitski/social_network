@@ -1,0 +1,29 @@
+.userPhoto{
+    width: 100px;
+    height: 100px;
+}
+.selectedPage{
+    font-weight: bold;
+    border: 1px solid red;
+}
+.pagesArea{
+    display: flex;
+}
+.pagesArea span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    color: #fff;
+}
+.pagesArea span:first-child{
+    margin-left: 0;
+}
+.pagesArea span:hover{
+    cursor: pointer;
+    background-color: rgb(120, 58, 179);
+}

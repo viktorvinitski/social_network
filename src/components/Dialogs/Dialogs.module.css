@@ -1,0 +1,23 @@
+.dialogs{
+    display: flex;
+    padding: 20px;
+}
+.users{
+    flex: 4;
+}
+.messages{
+    flex: 8;
+    margin-left: 30px;
+}
+.message{
+    color: white
+}
+.active{
+    color: gold;
+}
+.dialog a{
+    color: white;
+}
+.dialog a:hover{
+    color: rgb(82, 82, 209);
+}

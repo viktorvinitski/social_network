@@ -1,0 +1,17 @@
+.post_area{
+  padding: 0 15px;
+}
+.posts{
+  color: chartreuse;
+  margin-top: 10px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.button{
+  margin-top: 10px;
+  width: 100px;
+}

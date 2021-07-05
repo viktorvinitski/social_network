@@ -1,0 +1,19 @@
+.app-wrapper{
+  margin: 0  auto;
+  display: grid;
+  grid-template-areas: 
+  'h h'
+  'n c';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+}
+
+.app-wrapper-content{
+    grid-area: c;
+    background-color: rgb(171, 126, 212);
+    min-height: 90vh;
+    margin: 5px 0 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
